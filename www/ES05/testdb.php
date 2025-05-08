@@ -1,7 +1,7 @@
 <?php
 // Costanti per la connessione al database
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'ES05_user');
+define('DB_USERNAME', 'ES05_utente');
 define('DB_PASSWORD', 'mia_password');
 define('DB_NAME', 'ES05');
 $html_out = "";
@@ -30,7 +30,7 @@ $html_out = "Attenzione! Si è verificata un'eccezione. " . $e->getMessage();
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2>Test della connessione al database</h2>
+  <h1>Test della connessione al database</h1>
   <?=$html_out?>
 </body>
 </html>
